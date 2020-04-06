@@ -1,0 +1,127 @@
+html{
+    background:url("kam.png") no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+body{
+    background:url("kam.png") no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+head{
+    background:url("kam."png) no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: 300%;
+    font-style: bold;
+    font-family: Brush Script MT;
+    font-style: italic
+}
+
+/* colors for brand */
+nav .navbar-brand .blue
+{
+    color: #696969;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: 25px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 300px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 50px; /* Increase font size */
+  color: #F0FFFF; /* White text color */
+  font-style: italic;
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#plague {
+  top: 120px;
+  background-color: #25580FF80  ;
+
+}
+
+#stranger {
+  top: 180px;
+  background-color: #25580FF80  ; /* Blue */
+}
+
+#fall {
+  top: 240px;
+  background-color: #25580FF80   ; /* Red */
+}
+
+#death {
+  top: 300px;
+  background-color: #25580FF80   /* Light Black */
+}
+#strugat {
+  top: 360px;
+  background-color: #25580FF80   ; /* Red */
+}
+
+#hem {
+  top: 420px;
+  background-color: #25580FF80  ; /* Blue */
+}
+#dost {
+  top: 480px;
+  background-color: #25580FF80   ; /* Red */
+}
